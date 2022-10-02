@@ -10,7 +10,7 @@ kb_menu = ReplyKeyboardMarkup(
             KeyboardButton(text='100'),
         ],
         [
-            KeyboardButton(text='Любой текст'),
+            KeyboardButton(text='Инлайн меню'),
             KeyboardButton(text='Любой текст'),
             KeyboardButton(text='Любой текст'),
         ]
