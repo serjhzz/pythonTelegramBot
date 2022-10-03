@@ -23,4 +23,4 @@ async def send_message(call: CallbackQuery):
 
 @dp.callback_query_handler(text='Кнопки2')
 async def send_message(call: CallbackQuery):
-    await call.message.edit_reply_markup(ikb_menu2)
+    await call.message.edit_reply_markup(ikb_menu)
